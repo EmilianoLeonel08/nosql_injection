@@ -40,12 +40,16 @@ sudo apt install git
 Puedes instalar el IDE de su página oficial: https://code-visualstudio-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
 ```
 
-# 2. Clonar el repositorio
+# 2. Clonar el repositorio o descargarlo direcramente de github en .zip
 
 ```bash
 git clone git@github.com:EmilianoLeonel08/nosql_injection.git
 cd nosql_injection
 ```
+```
+https://github.com/EmilianoLeonel08/nosql_injection/archive/refs/heads/master.zip
+```
+
 # 3. Abrir Visual Studio Code
 
 ```
