@@ -36,8 +36,10 @@ sudo apt install git
 
 # 1. Instalar Visual Studio Code
 
-```
-Puedes instalar el IDE de su página oficial: https://code-visualstudio-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+Puedes instalar el IDE de su página oficial o desde tu App Center de Ubuntu:
+
+```bash
+https://code-visualstudio-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
 ```
 
 # 2. Clonar el repositorio o descargarlo direcramente de github en .zip
