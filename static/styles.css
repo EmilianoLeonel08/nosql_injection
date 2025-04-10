@@ -1,4 +1,4 @@
-/* Estilo global */
+
 body {
 	font-family: Arial, sans-serif;
 	background-color: #f4f4f9;
@@ -10,7 +10,7 @@ body {
 	height: 100vh;
 }
 
-/* Estilo del contenedor del formulario */
+
 .container {
 	background-color: #fff;
 	padding: 30px;
@@ -20,13 +20,12 @@ body {
 	text-align: center;
 }
 
-/* Título del formulario */
+
 h2 {
 	color: #333;
 	font-size: 24px;
 }
 
-/* Estilo del formulario */
 form {
 	display: flex;
 	flex-direction: column;
