@@ -50,13 +50,14 @@ cd nosql_injection
 https://github.com/EmilianoLeonel08/nosql_injection/archive/refs/heads/master.zip
 ```
 
-# 3. Abrir Visual Studio Code
+# 3. Abrir Visual Studio Code y descomprimir .zip
 
 ```
+Descomprimer el archivo .zip
 Abre Visual Studio Code.
 Haz clic en File (Archivo) en la barra de menú.
 Selecciona Open Folder (Abrir carpeta).
-Navega hasta la carpeta nosql_injection que clonaste y selecciónala.
+Navega hasta la carpeta nosql_injection que clonaste o descomprimiste y selecciónala.
 ```
 
 # 4. Crear un entorno virtual 
