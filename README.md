@@ -26,11 +26,12 @@ Demostrar cómo una aplicación vulnerable puede permitir el acceso no autorizad
 
 # Instalación de Python y pip en Ubuntu
 
-Si aún no tienes Python 3 ni pip instalados en tu sistema, puedes hacerlo ejecutando los siguientes comandos:
+Si aún no tienes Python 3, pip ni git instalados en tu sistema, puedes hacerlo ejecutando los siguientes comandos:
 
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip python3-venv
+sudo apt install git
 ```
 
 # 1. Instalar Visual Studio Code
