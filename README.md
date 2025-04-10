@@ -63,6 +63,7 @@ Navega hasta la carpeta nosql_injection que clonaste o descomprimiste y selecci√
 # 4. Crear un entorno virtual 
 
 ```bash
+Abre tu terminal en Visual Studio Code y ejecuta:
 python3 -m venv venv
 source venv/bin/activate
 ```
