@@ -12,10 +12,11 @@ Demostrar cómo una aplicación vulnerable puede permitir el acceso no autorizad
 
 # Tecnologías utilizadas
 
+- Visual Studio Code
 - Python 3
 - Flask
 - MongoDB (Atlas)
-- HTML (interfaz básica)
+- HTML 
 - Git
 
 ---
