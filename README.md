@@ -1,6 +1,6 @@
 # NoSQL Injection App
 
-Esta es una aplicación web simple construida con Python (Flask) y MongoDB que simula una vulnerabilidad NoSQL. Fue creada con fines educativos, para aprender cómo funcionan las inyecciones NoSQL y cómo se pueden evitar.
+Esta es una aplicación web simple construida en el IDE Visual Studio Code con Python (Flask) y MongoDB que simula una vulnerabilidad NoSQL. Fue creada con fines educativos, para aprender cómo funcionan las inyecciones NoSQL y cómo se pueden evitar.
 
 ---
 
