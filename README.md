@@ -24,7 +24,7 @@ Demostrar cómo una aplicación vulnerable puede permitir el acceso no autorizad
 
 # Instalación y ejecución
 
-# Instalación de Python y pip en Ubuntu
+# Instalación de Python, pip y git en Ubuntu
 
 Si aún no tienes Python 3, pip ni git instalados en tu sistema, puedes hacerlo ejecutando los siguientes comandos:
 
