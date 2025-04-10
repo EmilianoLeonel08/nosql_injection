@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 from pymongo import MongoClient
-import ast  # para convertir texto a diccionario (eval seguro)
+import ast  
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ client = MongoClient("mongodb+srv://student:dPgF0sb0ADBUZHCI@clusterunam.6pxlppf
 db = client["nosqlapp"]
 users = db["users"]
 
-# Crear un usuario de prueba si no existe
+
 if users.count_documents({"username": "admin"}) == 0:
     users.insert_one({
         "username": "admin",
@@ -21,7 +21,7 @@ if users.count_documents({"username": "admin"}) == 0:
 def login():
     message = ""
     if request.method == 'POST':
-        # Convertimos los campos a diccionarios si es posible
+        
         try:
             username = ast.literal_eval(request.form['username'])
         except:
@@ -32,7 +32,7 @@ def login():
         except:
             password = request.form['password']
 
-        # Consulta vulnerable a inyección NoSQL
+  
         user = users.find_one({
             "username": username,
             "password": password
