@@ -32,7 +32,12 @@ Si aún no tienes Python 3 ni pip instalados en tu sistema, puedes hacerlo ejecu
 sudo apt update
 sudo apt install python3 python3-pip python3-venv
 ```
+
 #1. Instalar Visual Studio Code
+
+```
+Puedes instalar el IDE de su página oficial: https://code-visualstudio-com.translate.goog/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc
+```
 
 #2. Clonar el repositorio
 
