@@ -1,6 +1,6 @@
 # NoSQL Injection App
 
-Esta es una aplicación web simple construida en el IDE Visual Studio Code con Python (Flask) y MongoDB que simula una vulnerabilidad NoSQL. Fue creada con fines educativos, para aprender cómo funcionan las inyecciones NoSQL y cómo se pueden evitar.
+Esta es una aplicación web simple desarrollada en Ubuntu linux con el IDE Visual Studio Code, el lenguaje Python3 (Flask) y MongoDB que simula una vulnerabilidad NoSQL. Fue creada con fines educativos, para aprender cómo funcionan las inyecciones NoSQL y cómo se pueden evitar.
 
 ---
 
@@ -12,8 +12,9 @@ Demostrar cómo una aplicación vulnerable puede permitir el acceso no autorizad
 
 # Tecnologías utilizadas
 
-- Visual Studio Code
-- Python 3
+- Ubuntu Linux 24.04
+- Visual Studio Code 1.99.1
+- Python3 3.12.3
 - Flask
 - MongoDB (Atlas)
 - HTML 
@@ -23,27 +24,45 @@ Demostrar cómo una aplicación vulnerable puede permitir el acceso no autorizad
 
 # Instalación y ejecución
 
-# 1. Clonar el repositorio
+# Instalación de Python y pip en Ubuntu
+
+Si aún no tienes Python 3 ni pip instalados en tu sistema, puedes hacerlo ejecutando los siguientes comandos:
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip python3-venv
+```
+#1. Instalar Visual Studio Code
+
+#2. Clonar el repositorio
 
 ```bash
 git clone git@github.com:EmilianoLeonel08/nosql_injection.git
 cd nosql_injection
 ```
+#3. Abrir Visual Studio Code
 
-# 2. Crear un entorno virtual 
+```
+Abre Visual Studio Code.
+Haz clic en File (Archivo) en la barra de menú.
+Selecciona Open Folder (Abrir carpeta).
+Navega hasta la carpeta nosql_injection que clonaste y selecciónala.
+```
+
+# 4. Crear un entorno virtual 
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-# 3. Instalar dependencias
+# 5. Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# 4. Ejecutar la app
+# 6. Ejecutar la app
 
 ```bash
 python app.py
