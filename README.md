@@ -39,7 +39,7 @@ sudo apt install git
 Puedes instalar el IDE desde la página oficial o desde tu App Center de Ubuntu:
 
 ```bash
-https://code.visualstudio.com/``
+https://code.visualstudio.com/
 ```
 
 # 2. Clonar el repositorio o descargarlo direcramente de github en .zip
