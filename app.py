@@ -13,7 +13,7 @@ users = db["users"]
 if users.count_documents({"username": "admin"}) == 0:
     users.insert_one({
         "username": "admin",
-        "password": "admin123"
+        "password": "admin"
     })
     print("✅ Usuario de prueba creado: admin / admin123")
 
